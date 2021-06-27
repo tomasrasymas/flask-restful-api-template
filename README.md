@@ -38,12 +38,12 @@ Project structure:
 ## Running 
 
 1. Clone repository.
-2. pip install requirements.txt
+2. `pip2 install -r requirements.txt --user`
 3. Run following commands:
-    1. python manage.py db init
-    2. python manage.py db migrate
-    3. python manage.py db upgrade
-4. Start server by running python manage.py runserver
+    1. `python2 manage.py db init`
+    2. `python2 manage.py db migrate`
+    3. `python2 manage.py db upgrade`
+4. Start server by running `python2 manage.py runserver`
 
 ## Usage
 ### Users endpoint
